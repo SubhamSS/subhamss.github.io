@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Personal website for portfolio",
+  "main": "index.js",
+  "homepage": "https://subhamss.github.io/",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Subham Swastik Samal",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^4.0.0",
+    "node-sass": "^7.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SubhamSS"
+  },
+  "keywords": [
+    "Portfolio",
+    "Website"
+  ]
+}
